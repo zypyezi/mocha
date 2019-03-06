@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "mocha": "mocha",
+    "mocha-recursive": "mocha --recursive",
+    "demo1": "mocha src/demo1",
+    "demo2": "mocha src/demo2 --reporter mochawesome",
+    "demo3": "mocha src/demo3",
+    "demo4": "mocha src/demo4 -t 5000",
+    "demo5": "mocha src/demo5",
+    "test": "mocha test/*.js",
+    "help": "mocha --help"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "~7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "cross-env": "^5.1.4",
+    "eslint": "^3.15.0",
+    "mocha": "^6.0.2",
+    "mochawesome": "^3.1.1",
+    "sass-loader": "~6.0.7",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {}
+}
