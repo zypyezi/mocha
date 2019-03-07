@@ -1,4 +1,7 @@
 {
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "mocha assert 断言 单元测试",
   "scripts": {
     "mocha": "mocha",
     "mocha-recursive": "mocha --recursive",
@@ -7,6 +10,7 @@
     "demo3": "mocha src/demo3",
     "demo4": "mocha src/demo4 -t 5000",
     "demo5": "mocha src/demo5",
+    "demo6": "mocha src/demo6",
     "test": "mocha test/*.js",
     "help": "mocha --help"
   },
